@@ -2,12 +2,11 @@ export * from 'yjs'
 
 // @ts-ignore 
 import {
-  syncableStore, SyncedDoc,SyncedArray,SyncedMap,SyncedXml,SyncedText, Box,boxed,
-  observeDeep, areSame, 
+  syncableStore, SyncedDoc,SyncedArray,SyncedMap,SyncedXml,SyncedText, Box,boxed, areSame, 
   Y, getYjsDoc,getYjsValue, transact
 } from "syncableStore"
 // @ts-ignore 
-import { syncedStore } from "@syncedstore/core"
+import { syncedStore, observeDeep } from "@syncedstore/core"
 // @ts-ignore 
 import { PREFERRED_TRIM_SIZE, fetchUpdates, storeState, clearDocument, IndexeddbPersistence } from 'y-indexeddb'
 // @ts-ignore
@@ -27,7 +26,6 @@ export {
   WebrtcConn, Room, SignalingConn, WebrtcProvider,
   YKeyValue, LWWMap,
   Observable,
-  syncableStore, SyncedDoc,SyncedArray,SyncedMap,SyncedXml,SyncedText, Box,boxed,
-  observeDeep, areSame, 
+  syncableStore, SyncedDoc,SyncedArray,SyncedMap,SyncedXml,SyncedText, Box,boxed, areSame, 
   Y, getYjsDoc,getYjsValue, transact
 }
