@@ -1,6 +1,6 @@
 # syncableStore-bundle #
 
-bundles syncableStore, SyncedStore, yjs and several related packages into a single module that can be used in no-build environments
+bundles [syncableStore](https://github.com/rozek/syncableStore), [SyncedStore](https://github.com/YousefED/SyncedStore), [yjs](https://github.com/yjs/yjs) and several related packages into a single module that can be used in no-build environments
 
 ## Background ##
 
