@@ -51,6 +51,7 @@
   },
   "dependencies": {
   	"syncableStore": "github:rozek/syncableStore",
+    "@syncedstore/core": "^0.6.0",
     "y-indexeddb": "github:rozek/y-indexeddb",
     "y-lwwmap": "^0.1.9",
     "y-utility": "github:rozek/y-utility",
