@@ -11,7 +11,7 @@ export default {
     { 
       file:      './dist/syncableStore-bundle.js',
       format:    'umd', // builds for both Node.js and Browser
-      name:      'syncableStore', // required for UMD modules
+      name:      'SyncableStore', // required for UMD modules
       noConflict:true,
       sourcemap: true,
     },{
