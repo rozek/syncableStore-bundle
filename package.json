@@ -2,19 +2,19 @@
   "name": "syncableStore-bundle",
   "version": "0.1.0",
   "description": "bundles syncableStore, SyncedStore, yjs and several related packages into a single module that can be used in no-build environments",
-  "type": "module",
-  "module": "./dist/syncableStore-bundle.esm.js",
-  "svelte": "./dist/syncableStore-bundle.esm.js",
+  "module":"./dist/syncableStore-bundle.esm.js",
+  "svelte":"./dist/syncableStore-bundle.esm.js",
   "types": "./dist/syncableStore-bundle.d.ts",
   "exports": {
     ".": {
-      "require": "./dist/syncableStore-bundle.js",
-      "import": "./dist/syncableStore-bundle.esm.js"
-    },
+      "import":"./dist/syncableStore-bundle.esm.js",
+      "svelte":"./dist/syncableStore-bundle.esm.js",
+       "types":"./dist/syncableStore-bundle.d.ts"
+   },
     "./package.json": "./package.json"
   },
   "scripts": {
-    "build": "rimraf dist && rollup -c rollup.config.js && tsc && mv src/*.d.ts dist && rm -r dist/src && rm src/*.js*",
+    "build": "rimraf dist && rollup -c rollup.config.js && tsc && mv src/*.d.ts dist && rimraf dist/src && rm dist/syncableStore-bundle.js* && rm src/*.js*",
     "agadoo": "agadoo",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
