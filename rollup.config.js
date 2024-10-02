@@ -3,13 +3,13 @@
 import commonjs   from '@rollup/plugin-commonjs'
 import resolve    from '@rollup/plugin-node-resolve'
 import typescript from '@rollup/plugin-typescript';
-import { terser } from 'rollup-plugin-terser'
+import terser from '@rollup/plugin-terser'
 
 export default {
   input:    './src/syncableStore-bundle.ts',
   output: [
     { 
-      file:      './dist/syncableStore-bundle.js',
+      file:      './dist/syncableStore-bundle.umd.js',
       format:    'umd', // builds for both Node.js and Browser
       name:      'SyncableStore', // required for UMD modules
       noConflict:true,
