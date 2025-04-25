@@ -1,6 +1,6 @@
 {
   "name": "syncableStore-bundle",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "bundles syncableStore, SyncedStore, yjs and several related packages into a single module that can be used in no-build environments",
   "main": "./dist/syncableStore-bundle.umd.js",
   "browser": "./dist/syncableStore-bundle.umd.js",
