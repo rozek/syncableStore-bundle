@@ -6,4 +6,5 @@ import { WebrtcConn, Room, SignalingConn, WebrtcProvider } from 'y-webrtc';
 import { YKeyValue } from 'y-utility/y-keyvalue';
 import { LWWMap } from 'y-lwwmap';
 import { Observable } from 'lib0/observable';
-export { PREFERRED_TRIM_SIZE, fetchUpdates, storeState, clearDocument, IndexeddbPersistence, WebsocketProvider, messageAuth, messageAwareness, messageQueryAwareness, messageSync, WebrtcConn, Room, SignalingConn, WebrtcProvider, YKeyValue, LWWMap, Observable, syncableStore, SyncedDoc, SyncedArray, SyncedMap, SyncedXml, SyncedText, Box, boxed, areSame, Y, getYjsDoc, getYjsValue, transact };
+import { LocalForageProvider } from 'y-localforage';
+export { PREFERRED_TRIM_SIZE, fetchUpdates, storeState, clearDocument, IndexeddbPersistence, WebsocketProvider, messageAuth, messageAwareness, messageQueryAwareness, messageSync, WebrtcConn, Room, SignalingConn, WebrtcProvider, YKeyValue, LWWMap, Observable, syncableStore, SyncedDoc, SyncedArray, SyncedMap, SyncedXml, SyncedText, Box, boxed, areSame, Y, getYjsDoc, getYjsValue, transact, LocalForageProvider };
