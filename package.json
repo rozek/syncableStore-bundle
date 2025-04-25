@@ -2,19 +2,19 @@
   "name": "syncableStore-bundle",
   "version": "0.1.1",
   "description": "bundles syncableStore, SyncedStore, yjs and several related packages into a single module that can be used in no-build environments",
-  "main":   "./dist/syncableStore-bundle.umd.js",
-  "browser":"./dist/syncableStore-bundle.umd.js",
+  "main": "./dist/syncableStore-bundle.umd.js",
+  "browser": "./dist/syncableStore-bundle.umd.js",
   "module": "./dist/syncableStore-bundle.esm.js",
   "svelte": "./dist/syncableStore-bundle.esm.js",
-  "types":  "./dist/syncableStore-bundle.d.ts",
+  "types": "./dist/syncableStore-bundle.d.ts",
   "exports": {
     ".": {
-      "require":"./dist/syncableStore-bundle.umd.js",
-      "browser":"./dist/syncableStore-bundle.umd.js",
+      "require": "./dist/syncableStore-bundle.umd.js",
+      "browser": "./dist/syncableStore-bundle.umd.js",
       "import": "./dist/syncableStore-bundle.esm.js",
       "svelte": "./dist/syncableStore-bundle.esm.js",
-      "types":  "./dist/syncableStore-bundle.d.ts"
-   },
+      "types": "./dist/syncableStore-bundle.d.ts"
+    },
     "./package.json": "./package.json"
   },
   "scripts": {
@@ -54,9 +54,10 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
-  	"syncableStore": "github:rozek/syncableStore",
     "@syncedstore/core": "https://github.com/rozek/SyncedStore/raw/main/packages/core/syncedstore-core-0.6.0.tgz",
+    "syncableStore": "github:rozek/syncableStore",
     "y-indexeddb": "github:rozek/y-indexeddb",
+    "y-localforage": "^0.1.5",
     "y-lwwmap": "^0.1.9",
     "y-utility": "github:rozek/y-utility",
     "y-webrtc": "github:rozek/y-webrtc",
